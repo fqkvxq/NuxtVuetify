@@ -25,6 +25,7 @@
       <v-btn icon @click.stop="fixed = !fixed">
         <v-icon>remove</v-icon>
       </v-btn>
+      <!-- scriptからtitleの値を取得 -->
       <v-toolbar-title v-text="title"/>
       <v-spacer/>
       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
@@ -76,7 +77,8 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: "Vuetify.js"
+      // ここにnavbarのタイトル
+      title: "Vuetify.jsaaaaaa"
     };
   }
 };
